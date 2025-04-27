@@ -1,22 +1,12 @@
 import numpy as np
 import preprocessing
 
-from math import log
-from math import exp
-from math import pi
-from math import sqrt
-
-from scipy.stats import multivariate_normal
-from scipy.stats import uniform
-
-from itertools import accumulate
-from itertools import tee
-from itertools import repeat
-
+from math import log, exp, pi, sqrt
+from scipy.stats import multivariate_normal, uniform
+from itertools import accumulate, tee, repeat
 from joblib import Parallel, delayed
 
 from utils import softmax, save_dataset, run_error_stats
-
 import samplers
 
 
