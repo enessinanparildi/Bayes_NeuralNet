@@ -1,10 +1,6 @@
-from scipy.stats import multivariate_normal
-from scipy.stats import uniform
-
+from scipy.stats import multivariate_normal, uniform
 import numpy as np
-
-from math import log
-from math import exp
+from math import log, exp
 
 
 class RandomWalkMetropolis:
